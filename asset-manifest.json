@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ar-vr-portfolio/static/css/main.a617e044.chunk.css",
-    "main.js": "/ar-vr-portfolio/static/js/main.1ea03158.chunk.js",
-    "main.js.map": "/ar-vr-portfolio/static/js/main.1ea03158.chunk.js.map",
+    "main.css": "/ar-vr-portfolio/static/css/main.32dd96b5.chunk.css",
+    "main.js": "/ar-vr-portfolio/static/js/main.e4deaecd.chunk.js",
+    "main.js.map": "/ar-vr-portfolio/static/js/main.e4deaecd.chunk.js.map",
     "runtime-main.js": "/ar-vr-portfolio/static/js/runtime-main.f93c78ff.js",
     "runtime-main.js.map": "/ar-vr-portfolio/static/js/runtime-main.f93c78ff.js.map",
     "static/js/2.c3d1f507.chunk.js": "/ar-vr-portfolio/static/js/2.c3d1f507.chunk.js",
@@ -10,14 +10,13 @@
     "static/js/3.e7557002.chunk.js": "/ar-vr-portfolio/static/js/3.e7557002.chunk.js",
     "static/js/3.e7557002.chunk.js.map": "/ar-vr-portfolio/static/js/3.e7557002.chunk.js.map",
     "index.html": "/ar-vr-portfolio/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/ar-vr-portfolio/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.c3d1f507.chunk.js.LICENSE.txt": "/ar-vr-portfolio/static/js/2.c3d1f507.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/ar-vr-portfolio/static/media/logo.6ce24c58.svg"
+    "static/css/main.32dd96b5.chunk.css.map": "/ar-vr-portfolio/static/css/main.32dd96b5.chunk.css.map",
+    "static/js/2.c3d1f507.chunk.js.LICENSE.txt": "/ar-vr-portfolio/static/js/2.c3d1f507.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f93c78ff.js",
     "static/js/2.c3d1f507.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.1ea03158.chunk.js"
+    "static/css/main.32dd96b5.chunk.css",
+    "static/js/main.e4deaecd.chunk.js"
   ]
 }
