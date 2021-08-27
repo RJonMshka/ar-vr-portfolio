@@ -9,6 +9,8 @@
   position: fixed;
   z-index: -1;
   opacity: 0.3;
+  width: 100%;
+  object-fit: cover;
 }
 
 .app-header h1 {
