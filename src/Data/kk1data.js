@@ -97,7 +97,7 @@ export default {
         ],
         "images": [
             {
-                "text": "<span class='model-name'>Tokyo Olympics image.</span> Tokyo has hosted Olympics 2020 which was actually held in 2021 due to Covid-29 pandemic. People who have toured Tokyo must have gotten some glimpses of the Olympics. <a href='https://www.creativebloq.com/news/is-this-tokyo-2020-logo-better-than-the-official-design/' target='_blank'>link</a>"
+                "text": "<span class='model-name'>Tokyo Olympics image.</span> Tokyo has hosted Olympics 2020 which was actually held in 2021 due to Covid-19 pandemic. People who have toured Tokyo must have gotten some glimpses of the Olympics. <a href='https://www.creativebloq.com/news/is-this-tokyo-2020-logo-better-than-the-official-design/' target='_blank'>link</a>"
             }
         ],
         "audios": [
