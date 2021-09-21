@@ -117,15 +117,15 @@ export default {
         ],
         "images": [
             {
-                "text": "<span class='model-name'>Paris Saint Germain Club Image</span> <a href='https://www.creativebloq.com/news/is-this-tokyo-2020-logo-better-than-the-official-design' target='_blank'>link</a>"
+                "text": "<span class='model-name'>Paris Saint Germain Club Image. </span> Paris Saint Germain FC is a professional football club based in Paris, France. It is France's most successful club, they have won over 40 official honours, including nine league titles and one major European trophy. <a href='https://www.creativebloq.com/news/is-this-tokyo-2020-logo-better-than-the-official-design' target='_blank'>link</a>"
             },
             {
-                "text": "<span class='model-name'>Paris Flag Image</span> <a href='https://en.wikipedia.org/wiki/Flag_of_Paris' target='_blank'>link</a>"
+                "text": "<span class='model-name'>Paris Flag Image</span> Paris Flag is used as a source for material for the outer cube of knickknack. <a href='https://en.wikipedia.org/wiki/Flag_of_Paris' target='_blank'>link</a>"
             }
         ],
         "audios": [
             {
-                "text": "<span class='model-name'>Ambient Music for Paris</span> <a href='https://freemusicarchive.org/music/Edoy/progression/passage-1' target='_blank'>link</a>"
+                "text": "<span class='model-name'>Ambient Music for Knickknack 1.</span> Again music here is a part of experience rather than a part of the place or any model. The music I have integrated with this knickknack has a progression to it, which makes me feel like experiencing grand things. Now, Eiffel tower, Arch De Triumphe and Lourve Museum are some of the grandest structures in Paris. Listening to this music will remind the user of how much impressive  this place is. <a href='https://freemusicarchive.org/music/Edoy/progression/passage-1' target='_blank'>link</a>"
             },
             {
                 "text": "<span class='model-name'>Magic 8 Ball Feedback audio for Paris knickknack: “Quick win video game notification”</span> <a href='https://mixkit.co/free-sound-effects/click/' target='_blank'>link</a>"

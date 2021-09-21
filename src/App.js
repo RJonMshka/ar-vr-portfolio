@@ -1,7 +1,7 @@
 
 import './App.css';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
@@ -28,13 +28,10 @@ export default function App() {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route exact path="/ar-vr-portfolio">
-              <Home />
-            </Route>
-            <Route path="/ar-vr-portfolio/project1">
+            <Route path="/project1">
               <Project1 />
             </Route>
-            <Route path="/ar-vr-portfolio/about">
+            <Route path="/about">
               <About />
             </Route>
           </Switch>

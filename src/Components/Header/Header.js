@@ -7,13 +7,13 @@ function Header() {
                 <nav className="main-nav">
                     <ul>
                         <li>
-                            <Link to="/ar-vr-portfolio">Home</Link>
+                            <Link to="/">Home</Link>
                         </li>
                         <li>
-                            <Link to="/ar-vr-portfolio/project1">Project 1</Link>
+                            <Link to="/project1">Project 1</Link>
                         </li>
                         <li>
-                            <Link to="/ar-vr-portfolio/about">About</Link>
+                            <Link to="/about">About</Link>
                         </li>
                     </ul>
                 </nav>

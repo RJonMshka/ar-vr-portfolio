@@ -97,12 +97,12 @@ export default {
         ],
         "images": [
             {
-                "text": "<span class='model-name'>Tokyo Olympics image</span> <a href='https://www.creativebloq.com/news/is-this-tokyo-2020-logo-better-than-the-official-design/' target='_blank'>link</a>"
+                "text": "<span class='model-name'>Tokyo Olympics image.</span> Tokyo has hosted Olympics 2020 which was actually held in 2021 due to Covid-29 pandemic. People who have toured Tokyo must have gotten some glimpses of the Olympics. <a href='https://www.creativebloq.com/news/is-this-tokyo-2020-logo-better-than-the-official-design/' target='_blank'>link</a>"
             }
         ],
         "audios": [
             {
-                "text": "<span class='model-name'>Ambient Music for Tokyo</span> <a href='https://freemusicarchive.org/music/Ketsa/as-above-so-below/me-on-the-inside' target='_blank'>link</a>"
+                "text": "<span class='model-name'>Ambient Music for Tokyo</span>. Now the audio here is not completely or I would say, not tightly bound to the place. This is because I do not believe in music to be part of a place but rather than part of the experience. the ambient music I have chosen have a nostalgic, medidating effect. Experiencing the knicknacks visually along with this music will surely remind a person of the place. <a href='https://freemusicarchive.org/music/Ketsa/as-above-so-below/me-on-the-inside' target='_blank'>link</a>"
             },
             {
                 "text": "<span class='model-name'>Magic 8 Ball Feedback audio for Tokyo knickknack: “Water Sci fi bleep”</span> <a href='https://mixkit.co/free-sound-effects/click/' target='_blank'>link</a>"
