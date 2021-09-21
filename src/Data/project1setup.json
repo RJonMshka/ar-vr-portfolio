@@ -1,0 +1,15 @@
+[
+    "Download Unity with the exact version 2019.4.28f1. This is to make sure that everything works on your system perfectly.",
+    "Download Unity Hub, it will help you download code editors, SDK for different platform and it will also help you manage your projects, even with different Unity versions. Download Android SDK or iOS SDK (depending on which device you want the app to run on) from 'Installs' section in the hub.",
+    "Create an account on Vuforia (<a href='https://developer.vuforia.com/' target='_blank'>link</a>). Generate a development key (License Key), it is available free for developer with some restrictions in terms of usage.",
+    "Now, download Vuforia Engine with exact version 9.8 (again to make sure everything works properly).",
+    "Please clone the Github repository mentioned above into your local machine and take the pull of the latest code available in the 'main' branch.",
+    "Open Unity Hub. In 'Projects' section, click on ADD button, it will open up the a directory window, choose the folder that has the Github repository cloned into it. Once you are done with that, Unity will open up.",
+    "Open/Execute the downloaded file of Vuforia Engine and import all its libraries into the Unity Project.",
+    "Once completed, you can click on 'GameObject' in top menu of Unity and you will be able to see 'Vuforia Engine' components in it.",
+    "On the inspector section of 'AR Camera' section, click on “Open Vuforia Engine Configuration', add your Vuforia account’s license key. ",
+    "Now to check if everything is working file, click on play button on top of scene section. It will open the game section and the output will be generated through your webcam.",
+    "Bring either one or both of the cubes (class cube and/or merge cube) in from of your webcam, the application will be able to convert both cubes into virtual knickknacks.",
+    "Go to 'Build Settings' and choose appropriate platform (Android, Windows or iOS), to generate respective application package files.",
+    "Now you are all set. Have fun experimenting."
+]
