@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ar-vr-portfolio/static/css/main.af1dcc85.chunk.css",
-    "main.js": "/ar-vr-portfolio/static/js/main.ccea8b59.chunk.js",
-    "main.js.map": "/ar-vr-portfolio/static/js/main.ccea8b59.chunk.js.map",
+    "main.js": "/ar-vr-portfolio/static/js/main.81789f17.chunk.js",
+    "main.js.map": "/ar-vr-portfolio/static/js/main.81789f17.chunk.js.map",
     "runtime-main.js": "/ar-vr-portfolio/static/js/runtime-main.621ad25d.js",
     "runtime-main.js.map": "/ar-vr-portfolio/static/js/runtime-main.621ad25d.js.map",
-    "static/js/2.917ad267.chunk.js": "/ar-vr-portfolio/static/js/2.917ad267.chunk.js",
-    "static/js/2.917ad267.chunk.js.map": "/ar-vr-portfolio/static/js/2.917ad267.chunk.js.map",
+    "static/js/2.0f9489df.chunk.js": "/ar-vr-portfolio/static/js/2.0f9489df.chunk.js",
+    "static/js/2.0f9489df.chunk.js.map": "/ar-vr-portfolio/static/js/2.0f9489df.chunk.js.map",
     "static/js/3.7dc4dff4.chunk.js": "/ar-vr-portfolio/static/js/3.7dc4dff4.chunk.js",
     "static/js/3.7dc4dff4.chunk.js.map": "/ar-vr-portfolio/static/js/3.7dc4dff4.chunk.js.map",
     "index.html": "/ar-vr-portfolio/index.html",
     "static/css/main.af1dcc85.chunk.css.map": "/ar-vr-portfolio/static/css/main.af1dcc85.chunk.css.map",
-    "static/js/2.917ad267.chunk.js.LICENSE.txt": "/ar-vr-portfolio/static/js/2.917ad267.chunk.js.LICENSE.txt",
+    "static/js/2.0f9489df.chunk.js.LICENSE.txt": "/ar-vr-portfolio/static/js/2.0f9489df.chunk.js.LICENSE.txt",
     "static/media/Croissant.203f4406.PNG": "/ar-vr-portfolio/static/media/Croissant.203f4406.PNG",
     "static/media/Eiffel_tower.7b7cac35.PNG": "/ar-vr-portfolio/static/media/Eiffel_tower.7b7cac35.PNG",
     "static/media/App.css": "/ar-vr-portfolio/static/media/Helvetica.06113bf7.ttf",
@@ -39,8 +39,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.621ad25d.js",
-    "static/js/2.917ad267.chunk.js",
+    "static/js/2.0f9489df.chunk.js",
     "static/css/main.af1dcc85.chunk.css",
-    "static/js/main.ccea8b59.chunk.js"
+    "static/js/main.81789f17.chunk.js"
   ]
 }
