@@ -42,6 +42,8 @@ import tttable from "../assets/images/Project2/tttable_model.PNG";
 import tvholder from "../assets/images/Project2/tvholder_model.PNG";
 import vm from "../assets/images/Project2/vending_machine.PNG";
 import page from "../assets/images/Project2/page_model.PNG";
+import exit_door_model from "../assets/images/Project2/exit_door_model.PNG";
+
 
 
 const p2Data =  {
@@ -82,7 +84,7 @@ const p2Data =  {
         "assets": {
             "fromInternet": [
                 {
-                    "text": "<span class='model-name'>Printer Model by “c-brenner”</span>  <a href='https://www.cgtrader.com/free-3d-models/interior/office/laser-printer-hp' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Printer Model by “c-brenner”:</span> This model has the ability to spawn multiple pages on touch of a button present on it (pages are interactable). This model have a box collider attached to it.  <a href='https://www.cgtrader.com/free-3d-models/interior/office/laser-printer-hp' target='_blank'>link</a>",
                     "imageData": {
                         "imageSrc": printer,
                         "imageAlt": "Printer",
@@ -90,7 +92,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Sitting Table and Chair Model by “ahmed9617”</span>  <a href='https://www.cgtrader.com/free-3d-models/exterior/landscape/out-door-chair-and-table' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Sitting Table and Chair Model by “ahmed9617”:</span> This model has box colliders attached to it. It is placed in the cafeteria. <a href='https://www.cgtrader.com/free-3d-models/exterior/landscape/out-door-chair-and-table' target='_blank'>link</a>",
                     "imageData": {
                         "imageSrc": stc,
                         "imageAlt": "STCM",
@@ -98,7 +100,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Folder Model by “inonzur94”</span>  <a href='https://www.cgtrader.com/free-3d-models/household/other/ring-binder-1e0dd9c2-26be-407d-830f-08a99bf32e9b' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Folder Model by “inonzur94”:</span>  This model is an interactable one and is part of one fo the main tasks. <a href='https://www.cgtrader.com/free-3d-models/household/other/ring-binder-1e0dd9c2-26be-407d-830f-08a99bf32e9b' target='_blank'>link</a>",
                     "imageData": {
                         "imageSrc": folder,
                         "imageAlt": "Folder",
@@ -106,7 +108,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Office Chair Model by “c-brenner”</span>  <a href='https://www.cgtrader.com/free-3d-models/interior/office/office-chair-allegro' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Office Chair Model by “c-brenner”</span> Chair model has colliders only. Its not interactable. <a href='https://www.cgtrader.com/free-3d-models/interior/office/office-chair-allegro' target='_blank'>link</a>",
                     "imageData": {
                         "imageSrc": chair,
                         "imageAlt": "Chair",
@@ -114,7 +116,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Couch Model by “fizzlefreshh”</span>  <a href='https://sketchfab.com/3d-models/black-leather-couch-e868e007bacf425cb0b3df2b44397bf6' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Couch Model by “fizzlefreshh”</span> Couch model has colliders only. It is not interactable. <a href='https://sketchfab.com/3d-models/black-leather-couch-e868e007bacf425cb0b3df2b44397bf6' target='_blank'>link</a>",
                     "imageData": {
                         "imageSrc": couch,
                         "imageAlt": "Couch",
@@ -122,7 +124,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Television Model by “DailyArt”</span>  <a href='https://sketchfab.com/3d-models/television-bbf7a1c3ae0c4f0db45b923388d9f315' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Television Model by “DailyArt”</span> This model is also only with colliders. It is used to display task information as well as PS5 gaming logo. <a href='https://sketchfab.com/3d-models/television-bbf7a1c3ae0c4f0db45b923388d9f315' target='_blank'>link</a>",
                     "imageData": {
                         "imageSrc": tv,
                         "imageAlt": "Television",
@@ -130,7 +132,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Pool Table Model by “42yeah”</span>  <a href='https://sketchfab.com/3d-models/pool-table-84c402789645463eacb8fbb081f0bb67' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Pool Table Model by “42yeah”</span> Pool Table has a lot of colliders attached to it. These colliders are added so that pool balls can move around in it as per their physics. <a href='https://sketchfab.com/3d-models/pool-table-84c402789645463eacb8fbb081f0bb67' target='_blank'>link</a>",
                     "imageData": {
                         "imageSrc": poolTable,
                         "imageAlt": "Pool Table",
@@ -146,7 +148,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Coffee Machine Model by “insya”</span>  <a href='https://sketchfab.com/3d-models/coffee-maker-2cd762456f334cee973619bd813680cf' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Coffee Machine Model by “insya”</span> A normal game object. <a href='https://sketchfab.com/3d-models/coffee-maker-2cd762456f334cee973619bd813680cf' target='_blank'>link</a>",
                     "imageData": {
                         "imageSrc": coffee,
                         "imageAlt": "Coffee Machine Model",
@@ -154,7 +156,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Stairs Model by “leviotis”</span>  <a href='https://www.cgtrader.com/free-3d-models/interior/other/modern-stairs--3' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Stairs Model by “leviotis”</span> This model also consist only of colliders and it is used to help user to navigate from one floor to the other. <a href='https://www.cgtrader.com/free-3d-models/interior/other/modern-stairs--3' target='_blank'>link</a>",
                     "imageData": {
                         "imageSrc": stairs,
                         "imageAlt": "Stairs Model",
@@ -162,7 +164,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Monitor Model by “a-anas97”</span>  <a href='https://www.cgtrader.com/free-3d-models/electronics/computer/monitor-curved' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Monitor Model by “a-anas97”</span> A normal game object. <a href='https://www.cgtrader.com/free-3d-models/electronics/computer/monitor-curved' target='_blank'>link</a>",
                     "imageData": {
                         "imageSrc": monitor,
                         "imageAlt": "Monitor Model",
@@ -170,7 +172,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Keyboard Model by “savagerus”</span>  <a href='https://www.cgtrader.com/free-3d-models/electronics/computer/apple-keyboard-a0615622-00a1-407b-aeed-01f94754a4c8' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Keyboard Model by “savagerus”</span> A normal game object. <a href='https://www.cgtrader.com/free-3d-models/electronics/computer/apple-keyboard-a0615622-00a1-407b-aeed-01f94754a4c8' target='_blank'>link</a>",
                     "imageData": {
                         "imageSrc": keyboard,
                         "imageAlt": "Keyboard Model",
@@ -186,7 +188,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Custom Lamp Model by “drawart”</span>  <a href='https://free3d.com/3d-model/pendant-light-zaha-light-17720.html' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Custom Lamp Model by “drawart”</span> A normal game object with yellowish point light attached to it. <a href='https://free3d.com/3d-model/pendant-light-zaha-light-17720.html' target='_blank'>link</a>",
                     "imageData": {
                         "imageSrc": customLamp,
                         "imageAlt": "Custom Lamp Model",
@@ -194,7 +196,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Office Trash Can Model by “sweethome3d”</span>  <a href='http://www.sweethome3d.com/models/contributions/poubelleInox.zip' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Office Trash Can Model by “sweethome3d”</span> An object with colliders only <a href='http://www.sweethome3d.com/models/contributions/poubelleInox.zip' target='_blank'>link</a>",
                     "imageData": {
                         "imageSrc": trashcan,
                         "imageAlt": "Office Trash Can Model",
@@ -202,7 +204,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Avatar 1 Model by “ayeshazaki16”</span>  <a href='https://free3d.com/3d-model/hiker-base-mesh-856162.html' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Avatar 1 Model by “ayeshazaki16”</span> A Person avatar with appropriate colliders and animations associated with it. <a href='https://free3d.com/3d-model/hiker-base-mesh-856162.html' target='_blank'>link</a>",
                     "imageData": {
                         "imageSrc": avatar1,
                         "imageAlt": "Avatar 1 Model",
@@ -210,7 +212,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Avatar 2 Model by “freemodelslowpoly”</span>  <a href='https://free3d.com/3d-model/model-without-textured-for-games-81527.html' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Avatar 2 Model by “freemodelslowpoly”</span> A Person avatar with appropriate colliders and animations associated with it. <a href='https://free3d.com/3d-model/model-without-textured-for-games-81527.html' target='_blank'>link</a>",
                     "imageData": {
                         "imageSrc": avatar2,
                         "imageAlt": "Avatar 2 Model",
@@ -220,7 +222,7 @@ const p2Data =  {
             ],
             "created": [
                 {
-                    "text": "<span class='model-name'>Table Tennis Table Model:</span> ",
+                    "text": "<span class='model-name'>Table Tennis Table Model:</span> This model is created from enahancing the default table which was part of the template project. It consists of appropriate colliders.",
                     "imageData": {
                         "imageSrc": tttable,
                         "imageAlt": "Table Tennis Table Model",
@@ -228,7 +230,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Table Tennis Net Model:</span> ",
+                    "text": "<span class='model-name'>Table Tennis Net Model:</span> This model is a mesh net representing table tennis net. It consists only of collider to help block the ping ball.",
                     "imageData": {
                         "imageSrc": ttnet,
                         "imageAlt": "Table Tennis Net Model",
@@ -236,7 +238,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Table Tennis Racquet:</span> ",
+                    "text": "<span class='model-name'>Table Tennis Racquet:</span> This object has colliders and it is interactable as well.",
                     "imageData": {
                         "imageSrc": ttbat,
                         "imageAlt": "Table Tennis Racquet",
@@ -244,7 +246,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Table Tennis Ping Pong Ball:</span> ",
+                    "text": "<span class='model-name'>Table Tennis Ping Pong Ball:</span> This object has colliders and it is interactable as well. It has sound associated with it.",
                     "imageData": {
                         "imageSrc": ttball,
                         "imageAlt": "Table Tennis Ping Pong Ball",
@@ -252,7 +254,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Table Tennis Ping Pong Ball Generator:</span> ",
+                    "text": "<span class='model-name'>Table Tennis Ping Pong Ball Generator:</span> This consists of two models. One wooden box and one generator button. When generator button is interacted by touching, the a new ping ball is generated in the wooden box. The ball generated is interactable and is same as the original ping pong ball.",
                     "imageData": {
                         "imageSrc": ttgen,
                         "imageAlt": "Table Tennis Ping Pong Ball Gen",
@@ -260,7 +262,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Pool Stick Model:</span> ",
+                    "text": "<span class='model-name'>Pool Stick Model:</span> This model has appropriate colliders and it is also interactable. User can hit pool balls with it and the ball will play the appropriate sound.",
                     "imageData": {
                         "imageSrc": pstick,
                         "imageAlt": "Pool Stick Model",
@@ -268,7 +270,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Page Model:</span> ",
+                    "text": "<span class='model-name'>Page Model:</span> This model is interactable and is auto generated when printed from printer object.",
                     "imageData": {
                         "imageSrc": page,
                         "imageAlt": "Page Model",
@@ -276,7 +278,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Playstation Model:</span> ",
+                    "text": "<span class='model-name'>Playstation Model:</span>This model only has colliders.",
                     "imageData": {
                         "imageSrc": ps5,
                         "imageAlt": "Playstation Model",
@@ -284,7 +286,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Playstation Controller:</span> ",
+                    "text": "<span class='model-name'>Playstation Controller:</span> These models are interactable and are able to display content and audio on the television when grabbed.",
                     "imageData": {
                         "imageSrc": ps5ctrl,
                         "imageAlt": "Playstation Controller",
@@ -292,7 +294,7 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Television Wooden Holder Model:</span> ",
+                    "text": "<span class='model-name'>Television Wooden Holder Model:</span> This model only has a collider.",
                     "imageData": {
                         "imageSrc": tvholder,
                         "imageAlt": "Television Wooden Holder Model",
@@ -300,58 +302,72 @@ const p2Data =  {
                     }
                 },
                 {
-                    "text": "<span class='model-name'>Pool Table Lamp Model:</span> ",
+                    "text": "<span class='model-name'>Pool Table Lamp Model:</span> This is a normal game object with associated light.",
                     "imageData": {
                         "imageSrc": poollamp,
                         "imageAlt": "Pool Table Lamp Model",
                         "caption": "Pool Table Lamp Model"
                     }
+                },
+                {
+                    "text": "<span class='model-name'>Exit Door Model:</span> This model is interactable as the behavior is similar to a real door.",
+                    "imageData": {
+                        "imageSrc": exit_door_model,
+                        "imageAlt": "Exit Door Model",
+                        "caption": "Exit Door Model"
+                    }
                 }
             ],
             "images": [
                 {
-                    "text": "<span class='model-name'>Coffee Room Image</span>  <a href='https://res.cloudinary.com/grohealth/image/upload/f_auto,fl_lossy,q_auto/v1581688713/DCUK/Content/iStock-938993594-1000x600.jpg' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Coffee Room Image</span> Texture of Coffee Room Cubical. <a href='https://res.cloudinary.com/grohealth/image/upload/f_auto,fl_lossy,q_auto/v1581688713/DCUK/Content/iStock-938993594-1000x600.jpg' target='_blank'>link</a>",
                 },
                 {
-                    "text": "<span class='model-name'>Wooden Texture Image</span>  <a href='https://www.istockphoto.com/photo/natural-wood-texture-gm1145602814-308400615' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Wooden Texture Image</span> <a href='https://www.istockphoto.com/photo/natural-wood-texture-gm1145602814-308400615' target='_blank'>link</a>",
                 },
                 {
                     "text": "<span class='model-name'>Stairs Wooden Texture Image</span>  <a href='https://in.pinterest.com/pin/49258189658086394/' target='_blank'>link</a>",
                 },
                 {
-                    "text": "<span class='model-name'>Page Image</span>  <a href='https://as2.ftcdn.net/v2/jpg/03/30/82/49/1000_F_330824936_CM6FxMIkoZ8qN02IfndhVQBThjNW61u9.jpg' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Page Image</span> <a href='https://as2.ftcdn.net/v2/jpg/03/30/82/49/1000_F_330824936_CM6FxMIkoZ8qN02IfndhVQBThjNW61u9.jpg' target='_blank'>link</a>",
                 },
                 {
-                    "text": "<span class='model-name'>PS5 Image</span>  <a href='https://assets1.ignimgs.com/2020/01/07/ps5-1578419844475_160w.jpg?width=1280' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>PS5 Logo Image</span> <a href='https://assets1.ignimgs.com/2020/01/07/ps5-1578419844475_160w.jpg?width=1280' target='_blank'>link</a>",
+                },
+                {
+                    "text": "<span class='model-name'>PS5 Texture</span> <a href='https://pbs.twimg.com/media/EjAVBvfXsAATn94.jpg' target='_blank'>link</a>",
                 }
             ],
             "audios": [
                 {
-                    "text": "<span class='model-name'>Printer Audio</span> <a href='https://www.fesliyanstudios.com/royalty-free-sound-effects-download/printer-103' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Printer Audio</span> Plays when printer prints a page. <a href='https://www.fesliyanstudios.com/royalty-free-sound-effects-download/printer-103' target='_blank'>link</a>",
                 },
                 {
-                    "text": "<span class='model-name'>Ping Pong Ball Hit Sound</span> <a href='https://orangefreesounds.com/ping-pong-ball-bounce-sound-effect/' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Ping Pong Ball Hit Sound</span> Plays when ping pong gets hit with bat or on the table. <a href='https://orangefreesounds.com/ping-pong-ball-bounce-sound-effect/' target='_blank'>link</a>",
                 },
                 {
-                    "text": "<span class='model-name'>Pool Ball Hit Sound</span> <a href='https://www.partnersinrhyme.com/soundfx/sports_sounds/sports_pool-ball-hit_wav.shtml' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Pool Ball Hit Sound</span> Plays when balls collide with each other or with pool stick. <a href='https://www.partnersinrhyme.com/soundfx/sports_sounds/sports_pool-ball-hit_wav.shtml' target='_blank'>link</a>",
                 },
                 {
-                    "text": "<span class='model-name'>Playstation 5 launch Sound</span> <a href='https://mp3download.to/6en/k0Lcz8X85Fk.html' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Playstation 5 launch Sound</span> Plays when user grabs one of the controller. <a href='https://mp3download.to/6en/k0Lcz8X85Fk.html' target='_blank'>link</a>",
                 },
                 {
-                    "text": "<span class='model-name'>Office Ambient Sound</span> <a href='https://mixkit.co/free-sound-effects/office/' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Office Ambient Sound</span> Office Ambient Sound - keeps looping a particular part of the office space. <a href='https://mixkit.co/free-sound-effects/office/' target='_blank'>link</a>",
                 },
                 {
-                    "text": "<span class='model-name'>Coffee Machine Sound</span> <a href='https://quicksounds.com/library/sounds/coffee-machine' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Coffee Machine Sound</span> Audio Source placed near coffee room. <a href='https://quicksounds.com/library/sounds/coffee-machine' target='_blank'>link</a>",
                 },
                 {
-                    "text": "<span class='model-name'>'Well Done' voice audio</span> <a href='https://etc.usf.edu/clipaudio/single/phrase-well-done-1-male-voice.html' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>'Well Done' voice audio</span> Affirmative audio which plays when user completes any task. <a href='https://etc.usf.edu/clipaudio/single/phrase-well-done-1-male-voice.html' target='_blank'>link</a>",
                 },
                 {
-                    "text": "<span class='model-name'>Cafeteria Ambient Sound</span> <a href='https://www.123rf.com/audio_154485098_improve-your-cafe--restaurant-ambience-with-this-sound.html' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>Cafeteria Ambient Sound</span> Cafeteria Ambient Sound which keeps on playing near cafeteria. <a href='https://www.123rf.com/audio_154485098_improve-your-cafe--restaurant-ambience-with-this-sound.html' target='_blank'>link</a>",
                 },
                 {
-                    "text": "<span class='model-name'>'Whats Going On' voice audio</span> <a href='https://www.soundsnap.com/streamers/play2.php?t=e&p=files%2Faudio%2Ffo%2F470790-Male_Angry_What-s_Going_On_1.wav' target='_blank'>link</a>",
+                    "text": "<span class='model-name'>'Whats Going On' voice audio</span> Plays when user is near 1st Floor colleague sitting in a chair. <a href='https://www.soundsnap.com/streamers/play2.php?t=e&p=files%2Faudio%2Ffo%2F470790-Male_Angry_What-s_Going_On_1.wav' target='_blank'>link</a>",
+                },
+                {
+                    "text": "<span class='model-name'>'Come On' voice audio</span> Plays when user is near 2nd Floor colleague sitting in a chair. <a href='https://www.soundsnap.com/streamers/play2.php?t=e&p=files%2Faudio%2F8s%2F470771-Male_Voice_Angry_Come_On.wav' target='_blank'>link</a>",
                 }
             ]
         }
@@ -390,7 +406,7 @@ const p2Data =  {
                 {
                     "text": "<span class='model-name'>Vending Machine Model by “manept”.</span>  <a href='https://www.cgtrader.com/free-3d-models/various/various-models/vending-machine-9209cd9e-0b72-4409-8c68-7f76080a1fe4' target='_blank'>link</a>",
                     "imageData": {
-                        "imageSrc": "",
+                        "imageSrc": vm,
                         "imageAlt": "Vending Machine Model",
                         "caption": "Vending Machine Model"
                     }
