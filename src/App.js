@@ -10,6 +10,7 @@ import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Project1 from "./Components/Project1/Project1";
 import About from "./Components/About/About";
+import Project2 from './Components/Project2/Project2';
 
 export default function App() {
   return (
@@ -30,6 +31,9 @@ export default function App() {
             </Route>
             <Route path="/project1">
               <Project1 />
+            </Route>
+            <Route path="/project2">
+              <Project2 />
             </Route>
             <Route path="/about">
               <About />
