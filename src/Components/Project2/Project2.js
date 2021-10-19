@@ -176,9 +176,10 @@ function Project2() {
                             isItemText = {false} 
                             isImage = {false}
                             isHeadLink= {true}
-                            headLink="https://youtu.be/WDigHvD93ZE"
+                            headLink="https://www.youtube.com/watch?v=YLtpWVJWQMA"
                             headLinkText="Video Link"
                         />
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/YLtpWVJWQMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div className="p-essay p-item" id="pEssay">
                         <Essay />
