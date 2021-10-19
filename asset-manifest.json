@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ar-vr-portfolio/static/css/main.af1dcc85.chunk.css",
-    "main.js": "/ar-vr-portfolio/static/js/main.baaaf26e.chunk.js",
-    "main.js.map": "/ar-vr-portfolio/static/js/main.baaaf26e.chunk.js.map",
+    "main.js": "/ar-vr-portfolio/static/js/main.bd4c8b60.chunk.js",
+    "main.js.map": "/ar-vr-portfolio/static/js/main.bd4c8b60.chunk.js.map",
     "runtime-main.js": "/ar-vr-portfolio/static/js/runtime-main.621ad25d.js",
     "runtime-main.js.map": "/ar-vr-portfolio/static/js/runtime-main.621ad25d.js.map",
     "static/js/2.1a6a361c.chunk.js": "/ar-vr-portfolio/static/js/2.1a6a361c.chunk.js",
@@ -88,6 +88,6 @@
     "static/js/runtime-main.621ad25d.js",
     "static/js/2.1a6a361c.chunk.js",
     "static/css/main.af1dcc85.chunk.css",
-    "static/js/main.baaaf26e.chunk.js"
+    "static/js/main.bd4c8b60.chunk.js"
   ]
 }
