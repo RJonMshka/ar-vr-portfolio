@@ -1,18 +1,8 @@
-@font-face {
-  font-family: 'Helvetica';
-  src: local('Helvetica'), url(./assets/fonts/Helvetica.ttf) format('ttf');
-}
 
-@font-face {
-  font-family: 'Helvetica';
-  font-weight: 500;
-  src: local('Helvetica'), url(./assets/fonts/Helvetica-Bold.ttf) format('ttf');
-}
 
 .app {
   min-height: 100vh;
   margin: 0;
-  font-family: 'Helvetica', sans-serif;
 }
 
 .app-header h1 {
@@ -73,7 +63,12 @@ footer li {
   background: black;
   margin: 0;
   padding: 16px;
-  color: white;
+  color: #e1e1e1;
+  font-weight: 600;
+}
+
+.app-header a:hover {
+  color: #c1c1c1;
 }
 
 ul {
@@ -171,6 +166,7 @@ text-decoration: underline;
 .image-holder img {
   width: 100%;
   height: auto;
+  border-radius: 12px;
   background-color: black;
 }
 /* Project */
@@ -245,9 +241,16 @@ text-decoration: underline;
   flex-basis: 60%;
   text-align: justify;
   text-justify: inter-word;
+  margin: 0;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
 }
 
 .p-item__body.no-image {
+  flex-basis: 100%;
+}
+
+.p-item__body.no-image .p-item-text{
   flex-basis: 100%;
 }
 
@@ -303,14 +306,35 @@ text-decoration: underline;
 
 .essay .essay-heading {
   font-weight: bold;
-  font-size: 28px;
+  font-size: 32px;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
 }
 
 .essay .essay-text {
   font-size: 20px;
   text-align: justify;
   text-justify: inter-word;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
 }
+
+.sc-heading {
+  margin-top: 24px;
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.sc-item {
+  margin-bottom: 24px;
+}
+
+.sc-video iframe {
+  width: 100%;
+  height: 700px;
+}
+
+
 @media only screen and (max-width: 768px) {
   .hero {
     overflow: visible;
@@ -381,6 +405,7 @@ text-decoration: underline;
   .p-item-text {
     flex-basis: 100%;
     font-size: 16px;
+    line-height: 1.5;
   }
 
   .p-setup .project-list li {
@@ -399,5 +424,23 @@ text-decoration: underline;
 
   .asset.image-asset .image-holder {
     flex-basis: 100%;
+  }
+
+  iframe {
+    max-width: 100%;
+  }
+
+  .sc-heading {
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 32px;
+  }
+  
+  .sc-item {
+    margin-bottom: 16px;
+  }
+
+  .sc-video iframe {
+    height: 400px;
   }
 } 

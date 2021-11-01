@@ -7,13 +7,16 @@ function Header() {
                 <nav className="main-nav">
                     <ul>
                         <li>
-                            <Link to="/">Home</Link>
+                            <Link to="/">HOME</Link>
                         </li>
                         <li>
-                            <Link to="/project1">Project 1</Link>
+                            <Link to="/project1">PROJECT 1</Link>
                         </li>
                         <li>
-                            <Link to="/project2">Project 2</Link>
+                            <Link to="/project2">PROJECT 2</Link>
+                        </li>
+                        <li>
+                            <Link to="/sc">STUDENT CHOICE</Link>
                         </li>
                         <li>
                             <Link to="/about">About</Link>

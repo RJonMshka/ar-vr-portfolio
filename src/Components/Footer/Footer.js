@@ -15,6 +15,9 @@ function Footer() {
                         <Link to="/project2">Project 2</Link>
                     </li>
                     <li>
+                        <Link to="/sc">Student Choice</Link>
+                    </li>
+                    <li>
                         <Link to="/about">About</Link>
                     </li>
                 </ul>

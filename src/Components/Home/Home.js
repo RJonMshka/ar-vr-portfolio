@@ -10,6 +10,12 @@ function Home() {
                 <div className="project-link">
                     <Link to="/ar-vr-portfolio/project1">Project 1 Link</Link>
                 </div>
+                <div className="project-link">
+                    <Link to="/ar-vr-portfolio/project2">Project 2 Link</Link>
+                </div>
+                <div className="project-link">
+                    <Link to="/ar-vr-portfolio/sc">Student Choice Topic Link</Link>
+                </div>
             </div>
         </>
     );
