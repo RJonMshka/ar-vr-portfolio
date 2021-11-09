@@ -94,6 +94,8 @@ export default {
         "https://vrscout.com/news/hand-physics-lab-oculus-quest/",
         "https://www.roadtovr.com/hand-physics-lab-review/",
         "https://skarredghost.com/2021/04/15/hand-physics-lab-review-2/",
-        "https://uploadvr.com/hand-physics-lab-review/"
+        "https://uploadvr.com/hand-physics-lab-review/",
+        "https://thumbs.gfycat.com/SparseSmoothHydatidtapeworm-mobile.mp4",
+        "https://giant.gfycat.com/EvenGoodnaturedFlyingsquirrel.mp4"
     ]
 }
