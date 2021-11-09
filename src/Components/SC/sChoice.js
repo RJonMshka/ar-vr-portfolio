@@ -89,6 +89,13 @@ export default function StudentChoice() {
                             isItemText = {true} 
                             isImage = {false}
                         />
+                        <ProjectItem 
+                            itemHeading="Immersion" 
+                            itemText={scData.subParts.p5}
+                            isItemTextComponent={false}
+                            isItemText = {true} 
+                            isImage = {false}
+                        />
                 </div>
                 <div className="sc-item sc-item-2">
                         <ProjectItem 
@@ -160,6 +167,15 @@ export default function StudentChoice() {
                     <ProjectItem 
                         itemHeading="Cons:" 
                         itemTextComponent={<ProjectList dataList={scData.cons} isOrdered={true} />}
+                        isItemTextComponent={true}
+                        isItemText = {false} 
+                        isImage = {false}
+                    />
+                </div>
+                <div className="sc-item sc-item-refs">
+                    <ProjectItem 
+                        itemHeading="Sources and References" 
+                        itemTextComponent={<ProjectList dataList={scData.sources} isOrdered={false} />}
                         isItemTextComponent={true}
                         isItemText = {false} 
                         isImage = {false}

@@ -35,6 +35,7 @@ export default {
         `,
         "p3": `The game has a comic-like graphic style, the whole setup looks pretty much black and white. Vibrant colors are provided to the object that needs to be interacted with which makes them more focusable. There are a good amount of details to the object that the user interacts with.`,
         "p4": `There is always some music that is getting played in the background which makes it more interesting than a game with no audio. There are decent sounds when objects collide with each other or when the user places an object at the desired place. There is a realistic feel to these sounds. For Example, when a button is pressed it makes a satisfying sound of an exact button press. Also, there is one puzzle where the user draws on a drawable surface and the sound of a pen screeching the surface also seems pretty realistic.`,
+        "p5": `Some of the users have experience a weird thing after continuously playing this game for some time, people feel that their hands are meat puppets and they felt heavy and useless. This happens because this game can affect proprioception up to certain extent. It means that while playing the game, the brain can make users into thinking that the rubber hands are their real hands.`,
         "controlImage": {
             "imageSrc": HPLControl,
             "imageAlt": "Control",
@@ -83,6 +84,16 @@ export default {
         "Since this game does not help the user to solve the puzzle. The complexity can be challenging and frustrating to solve.",
         "There are only around 85 puzzles. Once, they are solved, users won’t feel a need to complete them again.",
         "The virtual space involved is pretty small. So, users cannot navigate much in this and have only one place to interact in.",
-        "There is no support of a multiplayer environment which would have made it even more fun and also would have involved some collaboration."
+        "There is no support of a multiplayer environment which would have made it even more fun and also would have involved some collaboration.",
+        "As per some reviews, this game can cause 'proprioceptive drift' which can affect the ability of mind to coordinate the hands in real world."
+    ],
+    "sources": [
+        "https://www.oculus.com/experiences/quest/3392175350802835/",
+        "https://www.youtube.com/watch?v=AaAC0BeAu6A",
+        "https://www.youtube.com/watch?v=w-w7omxJuOk",
+        "https://vrscout.com/news/hand-physics-lab-oculus-quest/",
+        "https://www.roadtovr.com/hand-physics-lab-review/",
+        "https://skarredghost.com/2021/04/15/hand-physics-lab-review-2/",
+        "https://uploadvr.com/hand-physics-lab-review/"
     ]
 }

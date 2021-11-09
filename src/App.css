@@ -378,6 +378,18 @@ video {
   max-width: 100%;
 }
 
+.sc-item.sc-item-refs .p-item__heading {
+  font-size: 20px;
+  margin: 0;
+}
+
+.sc-item.sc-item-refs ul {
+  margin: 0;
+}
+
+.sc-item.sc-item-refs li {
+  font-size: 12px;
+}
 
 @media only screen and (max-width: 768px) {
   .main-nav ul {
