@@ -11,6 +11,7 @@ import Footer from './Components/Footer/Footer';
 import Project1 from "./Components/Project1/Project1";
 import About from "./Components/About/About";
 import Project2 from './Components/Project2/Project2';
+import Project3 from './Components/Project3/Project3';
 import StudentChoice from "./Components/SC/sChoice";
 
 export default function App() {
@@ -35,6 +36,9 @@ export default function App() {
             </Route>
             <Route path="/project2">
               <Project2 />
+            </Route>
+            <Route path="/project3">
+              <Project3 />
             </Route>
             <Route path="/sc">
               <StudentChoice />

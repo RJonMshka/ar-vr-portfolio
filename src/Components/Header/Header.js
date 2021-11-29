@@ -16,6 +16,9 @@ function Header() {
                             <Link to="/project2">PROJECT 2</Link>
                         </li>
                         <li>
+                            <Link to="/project3">PROJECT 3</Link>
+                        </li>
+                        <li>
                             <Link to="/sc">STUDENT CHOICE</Link>
                         </li>
                         <li>

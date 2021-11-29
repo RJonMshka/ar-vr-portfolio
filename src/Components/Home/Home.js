@@ -14,6 +14,9 @@ function Home() {
                     <Link to="/project2">Project 2 Link</Link>
                 </div>
                 <div className="project-link">
+                    <Link to="/project3">Project 3 Link</Link>
+                </div>
+                <div className="project-link">
                     <Link to="/sc">Student Choice Topic Link</Link>
                 </div>
             </div>
