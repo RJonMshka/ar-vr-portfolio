@@ -3,12 +3,17 @@ import ProjectItem from "../ProjectItem/ProjectItem";
 import Asset from "../Asset/Asset";
 import ProjectList from "../ProjectList/ProjectList";
 import Essay from "../Project3/Essay";
+import Hero from "../Hero/Hero";
+import ProjectHeaderList from "./ProjectHeaderLinks";
 
 import p3Data from "../../Data/project3data";
 
 function Project3 () {
     return (
         <>
+            <Hero>
+                <ProjectHeaderList />
+            </Hero>
             <div className="container">
                 <div className="project p">
                     <div className="p-introduction p-item" id="pIntro">
@@ -561,7 +566,7 @@ function Project3 () {
                             headLink="https://youtu.be/w9shB8JHzSg"
                             headLinkText="Video Link"
                         />
-                        <iframe width="560" height="315" src="https://youtu.be/w9shB8JHzSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/w9shB8JHzSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div className="p-essay p-item" id="pEssay">
                         <Essay />
