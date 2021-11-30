@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ar-vr-portfolio/static/css/main.60d54ccb.chunk.css",
-    "main.js": "/ar-vr-portfolio/static/js/main.459054cf.chunk.js",
-    "main.js.map": "/ar-vr-portfolio/static/js/main.459054cf.chunk.js.map",
+    "main.js": "/ar-vr-portfolio/static/js/main.d7136d56.chunk.js",
+    "main.js.map": "/ar-vr-portfolio/static/js/main.d7136d56.chunk.js.map",
     "runtime-main.js": "/ar-vr-portfolio/static/js/runtime-main.38384fe1.js",
     "runtime-main.js.map": "/ar-vr-portfolio/static/js/runtime-main.38384fe1.js.map",
     "static/js/2.c735b7f5.chunk.js": "/ar-vr-portfolio/static/js/2.c735b7f5.chunk.js",
@@ -33,7 +33,9 @@
     "static/media/chair_model.283c26c8.PNG": "/ar-vr-portfolio/static/media/chair_model.283c26c8.PNG",
     "static/media/coffee-model.9a5abd13.PNG": "/ar-vr-portfolio/static/media/coffee-model.9a5abd13.PNG",
     "static/media/couch_model.df136dd7.PNG": "/ar-vr-portfolio/static/media/couch_model.df136dd7.PNG",
+    "static/media/cp2scene.177acb06.PNG": "/ar-vr-portfolio/static/media/cp2scene.177acb06.PNG",
     "static/media/custom_lamp_model.1d28179e.PNG": "/ar-vr-portfolio/static/media/custom_lamp_model.1d28179e.PNG",
+    "static/media/dotcscene.6defdd96.PNG": "/ar-vr-portfolio/static/media/dotcscene.6defdd96.PNG",
     "static/media/eraser.87552446.PNG": "/ar-vr-portfolio/static/media/eraser.87552446.PNG",
     "static/media/exit_door_model.5eb1912f.PNG": "/ar-vr-portfolio/static/media/exit_door_model.5eb1912f.PNG",
     "static/media/fireext.db411bb2.PNG": "/ar-vr-portfolio/static/media/fireext.db411bb2.PNG",
@@ -45,6 +47,7 @@
     "static/media/hpl_ui.2d15835b.jpg": "/ar-vr-portfolio/static/media/hpl_ui.2d15835b.jpg",
     "static/media/hpl_vary.6f57c4b3.png": "/ar-vr-portfolio/static/media/hpl_vary.6f57c4b3.png",
     "static/media/intro-image.4d8cd0fc.jpg": "/ar-vr-portfolio/static/media/intro-image.4d8cd0fc.jpg",
+    "static/media/introImage.61bf5ed5.PNG": "/ar-vr-portfolio/static/media/introImage.61bf5ed5.PNG",
     "static/media/intro_image.b538e481.PNG": "/ar-vr-portfolio/static/media/intro_image.b538e481.PNG",
     "static/media/keyboard_model.84849b9a.PNG": "/ar-vr-portfolio/static/media/keyboard_model.84849b9a.PNG",
     "static/media/kk1_model.ae7c0195.png": "/ar-vr-portfolio/static/media/kk1_model.ae7c0195.png",
@@ -53,11 +56,13 @@
     "static/media/ladder2.263ed7dc.PNG": "/ar-vr-portfolio/static/media/ladder2.263ed7dc.PNG",
     "static/media/ladder3.85df0cf2.PNG": "/ar-vr-portfolio/static/media/ladder3.85df0cf2.PNG",
     "static/media/lamp_post_model.ba56c8e0.PNG": "/ar-vr-portfolio/static/media/lamp_post_model.ba56c8e0.PNG",
+    "static/media/lotgscene2.474ec7ec.PNG": "/ar-vr-portfolio/static/media/lotgscene2.474ec7ec.PNG",
     "static/media/lpch.c727b680.PNG": "/ar-vr-portfolio/static/media/lpch.c727b680.PNG",
     "static/media/lptree_model.97b69eb3.PNG": "/ar-vr-portfolio/static/media/lptree_model.97b69eb3.PNG",
     "static/media/macaroons.f0e056d7.PNG": "/ar-vr-portfolio/static/media/macaroons.f0e056d7.PNG",
     "static/media/main_image.8ead7b97.PNG": "/ar-vr-portfolio/static/media/main_image.8ead7b97.PNG",
     "static/media/mecahnoid.ffcf6bec.PNG": "/ar-vr-portfolio/static/media/mecahnoid.ffcf6bec.PNG",
+    "static/media/megoscene.77d3124e.PNG": "/ar-vr-portfolio/static/media/megoscene.77d3124e.PNG",
     "static/media/monitor_model.c331d3e2.PNG": "/ar-vr-portfolio/static/media/monitor_model.c331d3e2.PNG",
     "static/media/notebook.057b02b3.PNG": "/ar-vr-portfolio/static/media/notebook.057b02b3.PNG",
     "static/media/outerroom.62b879e2.PNG": "/ar-vr-portfolio/static/media/outerroom.62b879e2.PNG",
@@ -105,12 +110,13 @@
     "static/media/vm_item.52d7ceb4.PNG": "/ar-vr-portfolio/static/media/vm_item.52d7ceb4.PNG",
     "static/media/watch.2cd9b2ef.PNG": "/ar-vr-portfolio/static/media/watch.2cd9b2ef.PNG",
     "static/media/wine_bottle.33255a87.PNG": "/ar-vr-portfolio/static/media/wine_bottle.33255a87.PNG",
-    "static/media/wine_glass.e7ccc4af.PNG": "/ar-vr-portfolio/static/media/wine_glass.e7ccc4af.PNG"
+    "static/media/wine_glass.e7ccc4af.PNG": "/ar-vr-portfolio/static/media/wine_glass.e7ccc4af.PNG",
+    "static/media/zgscene.c06ded44.PNG": "/ar-vr-portfolio/static/media/zgscene.c06ded44.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.38384fe1.js",
     "static/js/2.c735b7f5.chunk.js",
     "static/css/main.60d54ccb.chunk.css",
-    "static/js/main.459054cf.chunk.js"
+    "static/js/main.d7136d56.chunk.js"
   ]
 }
