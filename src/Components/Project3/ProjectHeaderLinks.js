@@ -1,4 +1,6 @@
 import { a } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 export default function ProjectHeaderList() {
     return (
@@ -9,55 +11,55 @@ export default function ProjectHeaderList() {
             </div>
             <ul>
                 <li>
-                    <a href="#pIntro">Introduction</a>
+                    <Link to="project3#pIntro">Introduction</Link>
                 </li>
                 <li>
-                    <a href="#pDesciption">Project Description</a>
+                    <Link to="project3#pDescription">Project Description</Link>
                 </li>
                 <li className="sub-list-item">
-                    <a href="#pMenu">The Menu</a>
+                    <Link to="project3#pMenu">The Menu</Link>
                 </li>
                 <li className="sub-list-item">
-                    <a href="#ps1">Classic Project 2 Scene</a>
+                    <Link to="project3#ps1">Classic Project 2 Scene</Link>
                 </li>
                 <li className="sub-list-item-l2">
-                    <a href="#pS1Assets">Assets Used</a>
+                    <Link to="project3#pS1Assets">Assets Used</Link>
                 </li>
                 <li className="sub-list-item">
-                    <a href="#ps2">Mego Playset Perspective</a>
+                    <Link to="project3#ps2">Mego Playset Perspective</Link>
                 </li>
                 <li className="sub-list-item-l2">
-                    <a href="#pS2Assets">Assets Used</a>
+                    <Link to="project3#pS2Assets">Assets Used</Link>
                 </li>
                 <li className="sub-list-item">
-                    <a href="#ps3">Land of the Giants Perspective</a>
+                    <Link to="project3#ps3">Land of the Giants Perspective</Link>
                 </li>
                 <li className="sub-list-item-l2">
-                    <a href="#pS3Assets">Assets Used</a>
+                    <Link to="project3#">Assets Used</Link>
                 </li>
                 <li className="sub-list-item">
-                    <a href="#ps4">Dancing on the Ceiling</a>
+                    <Link to="project3#ps4">Dancing on the Ceiling</Link>
                 </li>
                 <li className="sub-list-item-l2">
-                    <a href="#pS4Assets">Assets Used</a>
+                    <Link to="project3#pS4Assets">Assets Used</Link>
                 </li>
                 <li className="sub-list-item">
-                    <a href="#ps5">Zero Gravity</a>
+                    <Link to="project3#ps5">Zero Gravity</Link>
                 </li>
                 <li className="sub-list-item-l2">
-                    <a href="#pS5Assets">Assets Used</a>
+                    <Link to="project3#pS5Assets">Assets Used</Link>
                 </li>
                 <li>
-                    <a href="#pSetup">How to set up the Project</a>
+                    <Link to="project3#pSetup">How to set up the Project</Link>
                 </li>
                 <li>
-                    <a href="#pRepoLink">Link to the Project Repository</a>
+                    <Link to="project3#pRepoLink">Link to the Project Repository</Link>
                 </li>
                 <li>
-                    <a href="#pVideoLink">Video Demonstration</a>
+                    <Link to="project3#pVideoLink">Video Demonstration</Link>
                 </li>
                 <li>
-                    <a href="#pEssay">Essay</a>
+                    <Link to="project3#pEssay">Essay</Link>
                 </li>
             </ul>
         </div>

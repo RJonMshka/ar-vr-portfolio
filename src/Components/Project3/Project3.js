@@ -27,7 +27,7 @@ function Project3 () {
                         />
                     </div>
 
-                    <div className="p-desciption p-item" id="pDesciption">
+                    <div className="p-desciption p-item" id="pDescription">
                         <ProjectItem 
                             itemHeading={p3Data.description.heading} 
                             isItemText = {true} 
