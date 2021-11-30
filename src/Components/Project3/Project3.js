@@ -1,6 +1,8 @@
 
 import ProjectItem from "../ProjectItem/ProjectItem";
 import Asset from "../Asset/Asset";
+import ProjectList from "../ProjectList/ProjectList";
+import Essay from "../Project3/Essay";
 
 import p3Data from "../../Data/project3data";
 
@@ -361,11 +363,6 @@ function Project3 () {
                     </div>
 
                     <div className="p-assets p-assets-4 p-item p-sub-item-l2" id="pS4Assets">
-                        <ProjectItem 
-                            itemHeading="Assets Used:"  
-                            isItemText = {false} 
-                            isImage = {false} 
-                        />
                         {!!p3Data.scene4.assets.fromInternet.length && <ProjectItem 
                             itemHeading="Models from Web:"  
                             itemTextComponent={<ul>
@@ -531,6 +528,43 @@ function Project3 () {
                             isItemText = {false} 
                             isImage = {false}
                         />}
+                    </div>
+
+
+                    <div className="p-setup p-item" id="pSetup">
+                        <ProjectItem 
+                            itemHeading="How to Set up the Project" 
+                            itemTextComponent={<ProjectList dataList={p3Data.setup} isOrdered={true} />}
+                            isItemTextComponent={true}
+                            isItemText = {false} 
+                            isImage = {false}
+                            
+                        />
+                    </div>
+                    <div className="p-repo p-item" id="pRepoLink">
+                        <ProjectItem 
+                            itemHeading="Github Repository Link to the Project:" 
+                            isItemText = {false} 
+                            isImage = {false}
+                            isHeadLink= {true}
+                            headLink="https://github.com/RJonMshka/CS428Project3"
+                            headLinkText="Link to Repo"
+                        />
+                    </div>
+
+                    <div className="p-video p-item" id="pVideoLink">
+                        <ProjectItem 
+                            itemHeading="Video Demonstration" 
+                            isItemText = {false} 
+                            isImage = {false}
+                            isHeadLink= {true}
+                            headLink="https://youtu.be/w9shB8JHzSg"
+                            headLinkText="Video Link"
+                        />
+                        <iframe width="560" height="315" src="https://youtu.be/w9shB8JHzSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div className="p-essay p-item" id="pEssay">
+                        <Essay />
                     </div>
                 </div>
             </div>

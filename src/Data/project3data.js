@@ -22,13 +22,20 @@ import subjecttable from "../assets/images/Project3/subjecttable.PNG";
 import watch from "../assets/images/Project3/watch.PNG";
 
 
+import introScene from "../assets/images/Project3/introImage.PNG";
+import cp2scene from "../assets/images/Project3/cp2scene.PNG";
+import megoScene from "../assets/images/Project3/megoscene.PNG";
+import zgscene from "../assets/images/Project3/zgscene.PNG";
+import dotcscene from "../assets/images/Project3/dotcscene.PNG";
+import lotgscene2 from "../assets/images/Project3/lotgscene2.PNG";
+
 const p3Data = {
     "introduction": {
         "text": "Project 3 is a Virtual Reality (VR) application which is an extension of Project 2 (Work Phobia). It includes how a VR user experiences the virtual environment when the navigation, visuals, audios, and perspectives change and the way that the user interacts under those perspectives. The project consists of multiple scenes starting with the classic Project 2 scene with the addition of a spatial menu, from where the user can navigate to other scenes. The first different scene that was built as part of Project 3 is “The Mego Playset” version of Project 2. It represents the whole Project 2 room as a dollhouse sitting on a table with some action figures and a lamp in another room. Users can change the position/location of items in the whole office area and can also place the action figures which are outside the room, into the room. The next version is “The Land of the Giants” version where the user’s perspective changes and becomes equivalent to a person with a height of about 1 foot. Here, the user lands on a typical office table where the user can interact with different items on the table in a different way, experience audios differently and can also climb up and down from this and other tables nearly. The third version is “Dancing on the Ceiling” where the scaling is normal, but the user gets control of rotating the whole world with the factor of 90-degree change on a particular axis and the user would experience the things around him/her falling as a result of the change in room’s orientation. The last version is “Zero Gravity” where the user’s virtual body becomes unaffected by gravity so that the user levitates in the air and moves around the room with the help of some external force(s). Also, all the interactable objects in the room are unaffected by gravity.",
         "heading": "INTRODUCTION",
         "imageCaption": "Project 3 Main Image",
         "imageAlt": "intro image",
-        "imageSrc": ""
+        "imageSrc": introScene
     },
     "setup": [
         "This project will work on either Windows or Mac OS. Space of around 10GBs is required on your machines. Atleast 4GBs of RAM is enough for Project to run",
@@ -65,7 +72,7 @@ const p3Data = {
     "scene1": {
         "text": "This is the default scene where the user lands when the application is launched first. All of its documentation is <a href='https://rjonmshka.github.io/ar-vr-portfolio/#/project2' target='_blank' >here</a>. Here you can get a decent amount of idea of all the elements that are part of this scene and how to navigate in it.",
         "heading": "Classic Project 2 Scene",
-        "imageSrc": "",
+        "imageSrc": cp2scene,
         "imageCaption": "Classic Project 3 View",
         "imageAlt": "Classic Project 3 View",
         "subparts": [
@@ -85,7 +92,7 @@ const p3Data = {
     "scene2": {
         "text": "This is a new addition to the default scene as a part of project 3. Here the whole room (office) setting of Project 2 is scaled down to a level where the user experiences it as a dollhouse (typically of size 2.5 ft x 2.5ft). The whole room is sitting on a table which is a part of an outer room with walls, ceiling. There is enough space in the outer room for the user to navigate around the table. Also, there is an interactable lamp on the table which has a spotlight attached to it. The lamp’s spotlight can be activated while it is grabbed with the help of button “X” or button “A” on the Oculus Quest’s controllers. The spotlight remains ON when the user holds either X or A button. If the user releases the button or ungrabs it, the spotlight will turn OFF. There are also some audios associated with the ON and OFF states of the lamp.<br /> Besides the lamp, there are two action figures placed on the table opposite the side of the lamp. Both the action figures have some animations associated with them. These action figures are also interactable.",
         "heading": "Mego Playset Perspective",
-        "imageSrc": "",
+        "imageSrc": megoScene,
         "imageCaption": "Mego Playset Perspective",
         "imageAlt": "Mego Playset Perspective",
         "subparts": [
@@ -165,7 +172,7 @@ const p3Data = {
     "scene3": {
         "text": "In this version, the whole environment is scaled up to a level where the height of the user is around 1 foot. The user lands on a table where there are some office items like pencils, ruler, phone, eraser, etc. Some of these objects are interactable. The user can climb up and down this table and other tables that are placed nearby.",
         "heading": "Land of the Giants Perspective",
-        "imageSrc": "",
+        "imageSrc": lotgscene2,
         "imageCaption": "Land of the Giants Perspective",
         "imageAlt": "Land of the Giants Perspective",
         "subparts": [
@@ -329,7 +336,7 @@ const p3Data = {
     "scene4": {
         "text": "Here the whole room is similar to the room in project 2 classic view. However, there are a few differences. There are controls given to the user to turn the whole setup 90 degrees left or right on the z-axis each time user enters the respective input. The room rotates with some amount of speed such that the user experiences things falling and crashing on each other when the room is rotating. Also, a lot of falling items in this setting are interactable so that if the user finds himself/herself under a pile of these objects then he/she would be easily able to escape the debris.",
         "heading": "Dancing on the Ceiling",
-        "imageSrc": "",
+        "imageSrc": dotcscene,
         "imageCaption": "Dancing on the Ceiling",
         "imageAlt": "Dancing on the Ceiling",
         "subparts": [
@@ -357,7 +364,7 @@ const p3Data = {
     "scene5": {
         "text": "In this setting, the user’s virtual body and other interactable objects do not have any gravity associated with them. So, initially, when the user lands in the scene, the user’s body is levitated in space above the floor of the room.",
         "heading": "Zero Gravity",
-        "imageSrc": "",
+        "imageSrc": zgscene,
         "imageCaption": "Zero Gravity",
         "imageAlt": "Zero Gravity",
         "subparts": [
